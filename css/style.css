@@ -1,0 +1,619 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+:root{
+    /*theme colors*/
+  --text-blue: #25274D;
+  --text-gray: #F4F4F6;
+  /*font-family*/
+  --font-family: 'Fira Sans', sans-serif;
+
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.text-black{
+    color: #F4F4F6;
+}
+body{
+   margin: 0%;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+nav{
+    padding: 0 2rem;
+    background: var(--text-blue);
+    position: relative;
+    justify-content: space-between;
+    height: 0rem;
+    min-height: 11vh;
+    overflow-y: hidden;
+    transition: all 1s ease;
+
+}
+nav a{
+    display: block;
+    padding: 1rem 0;
+    font-family: var(--font-family);
+    font-size: 1.6rem;
+    text-decoration: none;
+
+}
+nav .nav-items{
+   list-style: none;
+   margin: 0;
+}
+nav .nav-items li{
+    padding: 1.3rem 1rem;
+    font-family: var(--font-family);
+    font-size: 1.1rem;
+}
+nav .nav-items li:hover{
+    background: blue;
+}
+nav .nav-items li:hover a{
+    color: #000;
+}
+nav .toggle-collapse{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    cursos: pointer;
+    display: none;    
+}
+nav .toggle-collapse .toggle-icons{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.4rem 4rem;
+}
+nav .toggle-collapse .toggle-icons i{
+    font-size: 1.4rem;
+}
+.collapse{
+    height: 30rem;
+}
+nav#h1{
+    
+}
+@media only screen and (max-width:800px){
+    nav .nav-items{
+        flex-direction: column;
+    }
+    nav{
+        flex-direction: column !important;
+        display: block !important;
+    }
+    nav .toggle-collapse{
+        display: initial;
+    }
+}
+.h1{
+position: absolute;
+font-family:Fira Sans ;
+font-style: normal;
+font-weight: 600;
+text-align: center;
+color: #25274D;
+}
+h1{
+  
+
+position: absolute;
+width: 610px;
+height: 63px;
+left: 500px;
+top: 140px;
+
+font-family: Fira Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 42px;
+line-height: 63px;
+/* identical to box height, or 150% */
+text-align: center;
+
+color: #25274D;
+
+
+    
+}
+p{
+    position: absolute;
+    width: 1170px;
+    height: 120px;
+    left: 200px;
+    top: 235px;
+    font-family: 'Fira Sans', sans-serif;
+    font-style:normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #545454;
+}
+.features-img{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    left: 250px;
+    top: 390px;
+    
+}
+.feature-text{
+    position: absolute;
+    width: 1170px;
+    height: 120px;
+    left: 50px;
+    top:  850px;
+    
+}
+
+section#containerf{
+    position: absolute;
+    width: 1170px;
+    height: 600px;
+    left: 300px;
+    top: 1366px;
+    background-color: var(--text-gray); 
+ }
+ .container{
+     /* stand-full-size-transparent 1 */
+ background-color: lightgrey;
+ position: absolute;
+ width: 295px;
+ height: 640px;
+ 
+ position: absolute;
+ width: 500px;
+ height: 300px;
+ left: 100px;
+ background-color: var(--text-gray);
+ }
+ div#first h2{
+ position: absolute;
+ width: 162px;
+ height: 36px;
+ left: 500px;
+ top: 20px;
+ font-family: Fira Sans;
+ font-style: normal;
+ font-weight: 600;
+ font-size: 24px;
+ line-height: 36px;
+ color: #25274D;
+ }
+ div#first ul{
+    position: absolute;
+    width: 434px;
+    height: 60px;
+    left: 500px;
+    top: 55px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #545454;
+    }
+    div#second h3{
+        /* Optional */
+    
+    position: absolute;
+    width: 95px;
+    height: 36px;
+    left: 500px;
+    top: 350px;
+    /* H3 */
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+    
+    color: #25274D;
+    
+    
+    }
+    div#second ul{
+    position: absolute;
+    width: 180px;
+    height: 30px;
+    left: 500px;
+    top: 385px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #545454;
+    }
+    section#box1{
+        position: absolute;
+        top: 2000px;
+        position: absolute;
+        width: 200px;
+        height: 370px;
+        left: 265px;
+        background-color: var(--text-gray);
+    }
+    section#box1-img{
+        position: absolute;
+        width: 560px;
+        height: 397px;
+        background: transparent;
+        background-color: var(--text-gray);
+        }
+        
+    section#box1-img img{
+            background-color: var(--text-gray);
+        }
+    section#boxx{
+            position:absolute;
+            width: 600px;
+            height: 397px;
+            top: 2100px;
+            left: 850px;
+            background: #F4F4F6;
+            }
+            
+    section#costs{
+            /* base */
+            
+            position: absolute;
+            width: 1220px;
+            height: 380px;
+            left: 265px;
+            top: 2555px;
+            
+            background: #F4F4F6;
+            
+            
+            }
+#costs h1{
+      position: absolute;
+      top: 50px;
+      left: 300px;;
+}
+#costs p{
+    position: absolute;
+width: 770px;
+height: 30px;
+left: 200px;
+top: 150px;
+
+font-family: Fira Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+text-align: center;
+
+color: #25274D;
+}
+#data h5{
+    /* How we handle your data */
+
+position: absolute;
+width: 277px;
+height: 36px;
+left: 650px;
+top: 3000px;
+
+/* H3 */
+font-family: Fira Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+text-align: center;
+color: #25274D;
+}
+ 
+div#logo img{
+    position: absolute;
+    top: 3100px;
+    left: 350px;
+
+}
+div#location img{
+    position: absolute;
+    top: 3100px;
+    left: 900px
+}
+form{
+    position: absolute;
+    top:3380px;
+    left: 650px;
+    font-family: Fira Sans;
+    text-decoration-color: #25274D;
+}
+
+#header h4{
+
+position: absolute;
+top: 3290px;
+width: 370px;
+height: 63px;
+left: 650px;
+font-family: Fira Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 42px;
+line-height: 63px;
+text-align: center;
+color: #25274D;
+
+}
+form.mb-3{
+position: absolute;
+
+font-family: Fira Sans;
+
+color: #25274D;
+
+
+}
+.mb-3 input{
+    width: 100%;
+    hight: 100%;
+}
+button{
+position: absolute;
+top: 3900px;
+left: 650px;
+padding: 12px 24px;
+background: #25274D;
+width: 206px;
+height: 54px;
+color: #F4F4F6;
+border-radius: 50px;
+font-family: var(--font-family);
+font-size: 20px;
+}
+#p{
+    top: 3750px;
+    position: absolute;
+    left: 60px;
+    width: 570px;
+    height: 42px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 21px;
+    color:#545454;
+}
+section#call h5{
+    position: absolute;
+    left: 600px;
+    top: 4100px;
+    font-family: var(--font-family);
+
+}
+section#call img{
+    position: absolute;
+    top: 4200px;
+    left: 550px;
+}
+.number p{
+    position: absolute;
+    top: 4200px;
+    left: 650px;
+    font-family: var(--font-family);
+    font-size: 42px;
+    line-height: 64px;
+    color: #2D9CCA;
+}
+#or .text{
+    position: absolute;
+    top:4300px;
+    left: 450px;
+}
+#or p{
+    position: absolute;
+    top: 4400px;
+    left: 250px;
+}
+#diz{
+position: absolute;
+width: 81.73px;
+height: 36px;
+left: 20px;
+top: 300px;
+}
+#ffwd{
+    position: absolute;
+    top: 300px;
+    left: 200px;
+}
+footer{
+    position: absolute;
+    left: 0px;
+    background-color: #25274D;
+    top: 4700px;
+    width: 100%;
+    height: 400px;
+    
+}
+
+footer h4{
+    /* Newsletter */
+
+position: absolute;
+width: 192px;
+height: 36px;
+left: 150px;
+top: 80px;
+font-family: var(--font-family);
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+footer p{
+    top: 120px;
+    left: 150px;
+position: absolute;
+width: 470px;
+height: 48px;
+font-family: var(--font-family);
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+}
+#label-f{
+    top: 200px;
+   position: absolute;
+    left: 150px;
+   width: 320px;
+height: 48px;
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 50px;
+
+}
+footer #subscribe{
+    position: absolute;
+    top: 0px;
+    left: 350px;
+width: 130px;
+height: 48px;
+background: #D5580B;
+border-radius: 50px;
+}
+footer #subscribe a{
+position: absolute;
+width: 90px;
+height: 30px;
+left: 20px;
+top: 5px;
+font-family: Fira Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+display: flex;
+align-items: center;
+color: #F4F4F6;
+}
+.roww{
+    left: 800px;
+    position: absolute;
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col{
+    width:25%;
+    padding: 0 15px;
+}
+.footer-col h5{
+    color:black; 
+    margin-bottom: 30px;
+    font-size: 18px;
+    left: 50px;
+    top: 20px;
+}
+.footer-col .foot li a{
+
+    top: 100px;
+    font-size: 16px;
+    color: #F4F4F6;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+}
+.social a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: darkgrey;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    left: 900px;
+    top: 300px;
+    position: absolute;
+}
+.f-p{
+    position: absolute;
+    top: 300px;
+    left: 500px;
+   
+width: 453px;
+height: 21px;
+
+
+font-family: Fira Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+
+color: #FFFFFF;
+
+
+}
+@media(max-width: 767px){
+    .footer-col{
+        width:50%;
+        margin-bottom: 30px;
+    }
+    .footer-coll{
+        width: 50px;
+        margin-bottom: 30px;
+    }
+    .social{
+        width: 50px;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 574px){
+    .nav-ul{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-ul show{
+        display: flex;
+    }
+    .hamburger{
+        display: block;
+    }
+    .btn{
+        width: 100%;
+    }
+    .nav-ul li a{
+        padding: 10px;
+    }
+    header{
+        padding-bottom: 0;
+    }
+    .footer-col{
+        width: 100%;
+    }
+    .footer-coll{
+        width: 100%;
+    }
+    .social{
+        width: 100%:
+    }
+}
+
